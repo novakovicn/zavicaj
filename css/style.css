@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap");
+.resdugme:focus {
+  background: transparent;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Old Standard TT', serif;
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 22px;
+}
+
+body {
+  background-color: #18181E;
+  color: #f2f5f3;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.menifluid {
+  -webkit-box-shadow: 0px 3px 15px #f2f5f3;
+          box-shadow: 0px 3px 15px #f2f5f3;
+}
+
+.meni {
+  background-color: #18181E;
+  padding: 0px;
+}
+
+.meni a {
+  color: #fff !important;
+}
+
+.meni a:hover {
+  color: #f2f5f3 !important;
+}
+
+/*.navbar-collapse{
+    justify-content: flex-end;
+}*/
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  font-size: 22px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.nav-link:hover {
+  color: #18181E !important;
+}
+
+.dugmici {
+  background-color: #18181E;
+  color: #f2f5f3;
+  border: none;
+}
+
+.dugmici:hover {
+  background-color: #f2f5f3;
+  color: #18181E;
+}
+
+.slike {
+  padding: 0px;
+  overflow: hidden;
+}
+
+.linija {
+  border-bottom: 2px solid #f2f5f3;
+}
+
+.natpis {
+  top: 30%;
+  color: #f2f5f3;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1050px) {
+  .natpis {
+    top: 5%;
+  }
+}
+
+.natpis h1 {
+  font-size: 90px;
+}
+
+.slika {
+  width: 40%;
+  margin: 10px;
+  overflow: hidden;
+  background-color: #18181E;
+}
+
+.slika img {
+  -webkit-transition: .5s;
+  transition: .5s;
+  opacity: 0.5;
+}
+
+.slika:hover img {
+  -webkit-transform: scale(1.15, 1.15);
+          transform: scale(1.15, 1.15);
+  opacity: 1;
+}
+
+footer {
+  background-color: #000;
+  font-size: 18px;
+}
+
+footer i {
+  font-size: 30px;
+}
+
+footer a:hover {
+  color: #f2f5f3;
+}
+
+.podatci p {
+  font-size: 16px;
+}
+
+.podatci i {
+  font-size: 16px;
+}
+
+/*O nama*/
+.info {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 30, 0.5)), to(rgba(24, 24, 30, 0.9))), url("../images/onama.jpg");
+  background-image: linear-gradient(rgba(24, 24, 30, 0.5), rgba(24, 24, 30, 0.9)), url("../images/onama.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px;
+}
+
+.galerija {
+  overflow: hidden;
+}
+
+.galerija img {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.galerija img {
+  -webkit-transition: .5s;
+  transition: .5s;
+  opacity: 0.5;
+}
+
+.galerija:hover img {
+  -webkit-transform: scale(1.15, 1.15);
+          transform: scale(1.15, 1.15);
+  opacity: 1;
+}
+
+/*Jelovnik*/
+.dugme {
+  background-color: #f2f5f3;
+}
+
+.dugme:hover {
+  background-color: #18181E;
+  color: #f2f5f3;
+}
+
+.karte {
+  border-color: #f2f5f3;
+  color: #18181E;
+}
+
+.zaglavlje {
+  background-color: #18181E;
+  color: #fff;
+}
+
+thead {
+  background-color: #18181E;
+  color: #f2f5f3;
+}
+
+/*Kontakt*/
+.kontakt {
+  font-size: 25px;
+}
+
+#mapa {
+  width: 100%;
+  min-height: 600px;
+}
+
+/*Boja za formu*/
+#forma input {
+  color: #f2f5f3 !important;
+}
+
+.formaTekst {
+  font-size: 20px !important;
+  color: #f2f5f3 !important;
+}
+
+.modal {
+  height: auto;
+}
+
+#slajder {
+  border: none;
+}
+
+#slajder + .thumb.active {
+  top: 0px !important;
+  background: #f2f5f3;
+  color: #f2f5f3;
+}
+
+#slajder + .thumb.active .value {
+  color: #18181E;
+  font-size: 15px;
+  text-align: center;
+}
+
+#slajder::-webkit-slider-thumb {
+  background: #f2f5f3;
+}
+
+#slajder::-moz-range-thumb {
+  background: #f2f5f3;
+}
+
+input[type="radio"]:checked + span:after {
+  background-color: #f2f5f3;
+  border-color: #f2f5f3;
+}
+
+.prefix {
+  left: 0;
+}
+
+.input-field .prefix.active {
+  color: #f2f5f3 !important;
+  border-color: #f2f5f3;
+}
+
+.input-field .prefix.active:focus {
+  border-color: #f2f5f3 !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #f2f5f3 !important;
+  -webkit-box-shadow: 0 1px 0 0 #f2f5f3 !important;
+          box-shadow: 0 1px 0 0 #f2f5f3 !important;
+}
+
+.icon_prefix:focus .active {
+  border-color: #f2f5f3;
+}
+
+.datepicker-done, .datepicker-cancel, .datepicker-day-button, .datepicker-date-display {
+  color: #18181E;
+}
+
+.datepicker-table td.is-selected {
+  background-color: #f2f5f3;
+}
+
+.datepicker-date-display {
+  background-color: #f2f5f3;
+}
+
+.rezervisi {
+  background-color: #f2f5f3;
+  padding: 10px;
+}
+
+.rezervisi:hover {
+  background-color: #f2f5f3;
+}
+
+/*O Autoru*/
+.oAutoru a {
+  color: #f2f5f3;
+}
+
+.oAutoru i {
+  font-size: 35px;
+  color: #f2f5f3;
+}
+
+.follow {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .slika {
+    width: 100%;
+    margin: 10px 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

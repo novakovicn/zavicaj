@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zavičaj</title>
+    <link rel="shortcut icon" href="images/ico.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" />
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous' />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <div class="container-fluid menifluid">
+      <div class="container">
+      <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark meni">
+                <a class="navbar-brand" href="index.html"><img src="images/logo1.png" class="logo" alt="Logo" /></a>
+                <button class="navbar-toggler resdugme" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav text-center">
+                    <li class="nav-item ">
+                      <a class="nav-link font-weight-bold" href="index.html">Pocetna <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link font-weight-bold" href="oNama.html">O nama</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link font-weight-bold" href="meni.html">Jelovnik</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold" href="rezervacije.html">Rezervacije</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="kontakt.html">Kontakt</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+      <section>
+        <div class="container text-center ">
+          <div class="row">
+            <div class="col-12 mt-5 mb-3">
+                <h1 >Kontakt</h1>
+            </div>
+          </div>
+            <div class="row">
+                <div class="col-12  col-md-6 kontakt mt-5 text-center text-wrap text-break">
+                    <h2>Imate pitanja?</h2>
+                      <ul class="list-unstyled">
+                          <li class="mt-4">Adresa:<br/>Gavrila principa 77</li>
+                          <li class="mt-4">Radno vreme:<br/>12:00-04:00</li>
+                          <li class="mt-4">Broj telefona:<br/>011/1234-567</li>
+                          <li class="mt-4">Email:<br/>zavicaj@gmail.com</li>
+                      </ul>
+                </div>
+                <div class="col-12  col-md-6 kontakt mt-4 text-center text-wrap text-break">
+                  <h2>Rezervacije</h2>
+                  <form action="" method="GET" id="forma">
+                      <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" name="ime_i_prezime" placeholder="Ime i prezime">
+                      </div>
+                      <div class="input-field">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="text" name="telefon" placeholder="Kontakt telefon">
+                      </div>   
+                      <div class="input-field w-100">
+                          <i class="material-icons prefix">date_range</i>
+                          <input type="text" name="datum" class="datepicker" placeholder="Datum">
+                        </div>
+                        <div class="input-field w-100">
+                            <span>Broj osoba:</span>
+                            <input type="range" id="slajder" min="0" max="10" value="0" name="broj_osoba" />
+                          </div>  
+                        <div class="input-field w-100">
+                            <label class="position-static">
+                                <input name="zona" type="radio" value="pušačka zona"/>
+                                <span class="formaTekst">Pušačka zona</span>
+                              </label>
+                              <label class="position-static ml-sm-5">
+                                  <input name="zona" type="radio" value="nepušačka zona"/>
+                                  <span class="formaTekst">Nepušačka zona</span>
+                                </label>
+                          </div>   
+                          <button class="waves-effect waves-light btn rezervisi text-upper grey-text text-darken-4 mt-3"type="submit">Rezervišite</button>
+                  </form>
+              </div>
+            </div>
+            <div class="row mt-5 p-2">
+              <div class="col-12">
+                <h2 class="mb-5">Kako do nas?</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45293.42283746172!2d20.44807309154835!3d44.804471149123856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd700cfb81780ab1!2z0JfQsNCy0LjRh9Cw0Zg!5e0!3m2!1ssr!2srs!4v1617032241612!5m2!1ssr!2srs" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </div>
+     </div>
+            </div>
+      </section>
+  <footer>
+    <div class="container pt-5">
+      <div class="row">
+          <div class="col-lg-6 col-12 pr-3 d-flex justify-content-center justify-content-lg-start">
+              <ul class="list-inline text-center">
+                  <li class="list-inline-item pr-3"><a href="https://www.facebook.com/" target="_blank"><i class='fab fa-facebook-f'></i></a></li>
+                  <li class="list-inline-item pr-3"><a href="https://www.instagram.com/" target="_blank"><i class='fab fa-instagram'></i></a></li>
+                  <li class="list-inline-item pr-3"><a href="https://www.tripadvisor.com/" target="_blank"><i class='fab fa-tripadvisor'></i></a></li>
+                </ul>
+          </div>
+          <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-end">
+              <ul class="list-inline text-center">
+                  <li class="list-inline-item"><a href="index.html">Pocetna</a></li>
+                  <li class="list-inline-item"><a href="oNama.html">O nama</a></li>
+                  <li class="list-inline-item"><a href="meni.html">Jelovnik</a></li>
+                  <li class="list-inline-item"><a href="rezervacije.html">Rezervacije</a></li>
+                  <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+          </div>
+          
+      </div>
+      <div class="row">
+        <div class="col-12 text-center podatci pr-5">
+          <p class="d-sm-inline"><i class="fa fa-phone mr-2" aria-hidden="true"></i>011/1234-567</p>
+          <p class="d-sm-inline"><i class="fa fa-envelope m-2"></i> zavicaj@gmail.com</p>
+           <p>&copy; Nikola Novaković 2021</p> 
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

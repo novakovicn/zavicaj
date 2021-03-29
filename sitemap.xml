@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<urlset>
+    <url>
+        <loc>https://novakovicn.github.io/zavicaj/index.html</loc>
+        <lastmod>2021-3-29</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+    <url>
+        <loc>https://novakovicn.github.io/zavicaj/onama.html</loc>
+        <lastmod>2021-3-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://novakovicn.github.io/zavicaj/meni.html</loc>
+        <lastmod>2021-3-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://novakovicn.github.io/zavicaj/rezervacije.html</loc>
+        <lastmod>2021-3-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://novakovicn.github.io/zavicaj/kontakt.html</loc>
+        <lastmod>2021-3-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
